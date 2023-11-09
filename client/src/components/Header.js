@@ -51,7 +51,7 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className="flex items-center gap-8">
-                        <li style={cartStyle}>Cart</li>
+                        <li className='textbase' text-black  style={cartStyle}>Cart</li>
                         <li style={loginStyle}>Login</li>
                     </ul>
                 </div>
