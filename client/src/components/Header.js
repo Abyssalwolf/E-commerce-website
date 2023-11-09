@@ -51,8 +51,10 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className="flex items-center gap-8">
-                        <li className='textbase' text-black  style={cartStyle}>Cart</li>
-                        <li style={loginStyle}>Login</li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300" style={cartStyle}>Home</li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Shop</li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Cart</li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Login</li>
                     </ul>
                 </div>
             </div>
