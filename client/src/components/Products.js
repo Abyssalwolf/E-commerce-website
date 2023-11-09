@@ -30,7 +30,7 @@ const Product = ({ title,newPrice, category, imageUrl }) => {
           </div>
         </div>
         <div>
-          <p>{category}</p>
+    
         </div>
       </div>
       <div className="absolute top-4 right-0">
