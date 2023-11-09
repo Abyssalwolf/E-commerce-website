@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Product = ({ title, oldPrice, newPrice, category, imageUrl }) => {
+const Product = ({ title,newPrice, category, imageUrl }) => {
   return (
     <div className="w-full relative group">
       <div className="w-full h-96 cursor-pointer overflow-hidden">
@@ -12,10 +12,11 @@ const Product = ({ title, oldPrice, newPrice, category, imageUrl }) => {
         <div className="flex justify-between items-center">
           <div>
             <h2 className="font-titleFont text-base font-bold">{title}</h2>
+            <p className="font-titleFont text-base font-light">{category}</p>
           </div>
           <div className="text-sm relative w-28 flex justify-end overflow-hidden">
             <div className="flex gap-2 transform group-hover:translate-x-24 transition-transform duration-500">
-              <p className="line-through text-gray-500">{oldPrice}</p>
+             
               <p className="font-semibold">{newPrice}</p>
             </div>
             <p className="absolute z-20 w-[100px] text-gray-500 hover:text-gray-900 flex items-center gap-1 top-0 transform -translate-x-32 group-hover:translate-x-0 transition-transform cursor-pointer duration-500">
@@ -33,7 +34,7 @@ const Product = ({ title, oldPrice, newPrice, category, imageUrl }) => {
         </div>
       </div>
       <div className="absolute top-4 right-0">
-        <p className="bg-black text-white font-semibold font-titleFont px-6 py-1">Sale</p>
+        
       </div>
       <div className="Toastify"></div>
     </div>
@@ -44,7 +45,7 @@ const Products = () => {
   return (
     <div className="py-10">
       <div className="flex flex-col items-center gap-4">
-        <h1 className="text-2xl bg-black text-white py-2 w-80 text-center">shopping everyday</h1>
+        <h1 className="text-2xl bg-black text-white py-2 w-80 text-center">DONT MISS OUT ON THESE BESTSELLERS</h1>
         <span className="w-20 h-[3px] bg-black"></span>
         <p className="max-w-[700px] text-gray-600 text-center">
           WELCOME TO URBAN HUB WHERE YOUR CHOICE MEETS YOUR DESIRES
@@ -55,7 +56,7 @@ const Products = () => {
           title="Long sleeve Jac"
           oldPrice="$200"
           newPrice="$150"
-          category="women"
+          category="Women"
           imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
@@ -78,6 +79,27 @@ const Products = () => {
           newPrice="$50"
           category="women"
           imageUrl="https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          oldPrice="$200"
+          newPrice="$150"
+          category="women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          oldPrice="$200"
+          newPrice="$150"
+          category="women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          oldPrice="$200"
+          newPrice="$150"
+          category="women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         {/* Add more Product components for other items */}
       </div>
