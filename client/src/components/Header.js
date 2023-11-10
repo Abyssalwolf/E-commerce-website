@@ -1,5 +1,10 @@
 import React from 'react';
-import { logo1 } from '../assets/index';
+import {logo1} from '../assets/index';
+import {home} from '../assets/index';
+import {cart} from '../assets/index';
+import {login} from '../assets/index';
+import {shop} from '../assets/index';
+
 
 const Header = () => {
     const headerStyle = {
@@ -52,10 +57,10 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className="flex items-center gap-8">
-                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300" style={cartStyle}>Home</li>
-                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Shop</li>
-                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Cart</li>
-                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}>Login</li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300" style={cartStyle}><img className='w-6 h-6' src={home}alt="home"/></li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}><img  className='w-6 h-6'src={shop}alt="shop"/></li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}><img  className='w-6 h-6'src={cart}alt="cart"/></li>
+                        <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"style={loginStyle}><img  className='w-6 h-6'src={login}alt="login"/></li>
                     </ul>
                 </div>
             </div>
