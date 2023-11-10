@@ -54,51 +54,79 @@ const Products = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-4 gap-10 py-10">
         <Product
           title="Long sleeve Jac"
-          oldPrice="$200"
+         
           newPrice="$150"
           category="Women"
           imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
           title="Jacket with wol"
-          oldPrice="$70"
+          
           newPrice="$65"
           category="women"
           imageUrl="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
           title="Compact fashion"
-          oldPrice="$70"
+          
           newPrice="$55.99"
           category="women"
           imageUrl="https://images.pexels.com/photos/2752045/pexels-photo-2752045.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
-          title="Blue jins"
-          oldPrice="$70"
-          newPrice="$50"
-          category="women"
+          title="Blue jeans"
+         newPrice="$50"
+          category="Women"
           imageUrl="https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
           title="Long sleeve Jac"
-          oldPrice="$200"
+        
           newPrice="$150"
-          category="women"
+          category="Women"
           imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
           title="Long sleeve Jac"
-          oldPrice="$200"
           newPrice="$150"
-          category="women"
+          category="Women"
           imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Product
           title="Long sleeve Jac"
-          oldPrice="$200"
+         
           newPrice="$150"
-          category="women"
+          category="Women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          newPrice="$150"
+          category="Women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          newPrice="$150"
+          category="Women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          newPrice="$150"
+          category="Women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          newPrice="$150"
+          category="Women"
+          imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
+        />
+        <Product
+          title="Long sleeve Jac"
+          newPrice="$150"
+          category="Women"
           imageUrl="https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         {/* Add more Product components for other items */}
