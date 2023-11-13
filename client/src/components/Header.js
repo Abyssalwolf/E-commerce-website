@@ -47,7 +47,6 @@ const Header = () => {
     return (
         <div style={headerStyle}>
             <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
-                
                 <div style={logoStyle}>
                     <img className='w-35 h-10' src={logo1}alt="logo1"/>
                 </div>

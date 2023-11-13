@@ -1,6 +1,11 @@
 import React from "react";
-import Header from "./components/Header"
-import Home from "./pages/Home";
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
+import { productsData } from "./api/Api";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Product from "./components/Product";
@@ -12,39 +17,9 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <ScrollRestoration/>
-      <Outlet/> 
-      <Footer/>
+      <Home />
     </div>
   );
 }
 
-const router = createBrowserRouter([
-  { path: "/",
-    element: <Layout/>,
-    children: [
-  {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/product/:id",
-    element: <Product />,
-  },
-  {
-    path: "/cart",
-    element: <Cart/>,
-  },
-  ],
-},
-]);
-
-function App() {
-  return (
-    <div className="font-bodyFont">
-      <RouterProvider router={router} />
-    </div>
-  );
-}
-
-export default Layout;
+export default App;
