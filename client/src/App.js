@@ -9,15 +9,44 @@ import { productsData } from "./api/Api";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Product from "./components/Product";
-import Home from "./Home";
+import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import Login from "./pages/Login";
 
 const Layout = () => {
   return (
     <div>
       <Header />
-      <Home />
+      <ScrollRestoration/>
+      <Outlet/> 
+      <Footer/>
+    </div>
+  );
+}
+
+const router = createBrowserRouter([
+  { path: "/",
+    element: <Layout/>,
+    children: [
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/product/:id",
+    element: <Product />,
+  },
+  {
+    path: "/cart",
+    element: <Cart/>,
+  },
+  ],
+},
+]);
+
+function App() {
+  return (
+    <div className="font-bodyFont">
+      <RouterProvider router={router} />
     </div>
   );
 }
