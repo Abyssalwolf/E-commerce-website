@@ -1,4 +1,5 @@
-![StackUp Banner]([https://tinkerhub.frappe.cloud/files/stackup%20banner.jpeg])
+![stackup banner](https://github.com/Abyssalwolf/E-commerce-website/assets/117766338/901712f1-b6bc-4f49-ab47-eb1dabcf6f67)
+
 # Project Name
 Long Description about project. This project do that. This project is awesome...
 ## Team members
