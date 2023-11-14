@@ -1,6 +1,6 @@
 ![stackup banner](https://github.com/Abyssalwolf/E-commerce-website/assets/117766338/901712f1-b6bc-4f49-ab47-eb1dabcf6f67)
 
-# Urban Hub
+# Urban Hub - team bitwizards
 Urban Hub is an E-commerce website that allows users to browse through products listed and add them to cart. The website also allows the user to login using google and github and then do the payments integrated using stripe.js. The project was created using React and Firebase.
 ## Team members
 1. Sebin Thomas [https://github.com/Abyssalwolf]
