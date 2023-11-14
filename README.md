@@ -4,7 +4,7 @@
 Urban Hub is an E-commerce website that allows users to browse through products listed and add them to cart. The website also allows the user to login using google and github and then do the payments integrated using stripe.js. The project was created using React and Firebase.
 ## Team members
 1. Sebin Thomas [https://github.com/Abyssalwolf]
-2. Midhun S M [[https://github.com/Midhunnnnnnnn]
+2. Midhun S M [https://github.com/Midhunnnnnnnn]
 3. Sarah Abraham [https://github.com/SarahAbraham22]
 4. Nandana S [https://github.com/CaptainSparrow2003]
 ## Team Id
